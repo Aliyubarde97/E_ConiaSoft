@@ -1,0 +1,27 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* body {
+ 
+}
+
+.container { 
+  width: 90%;
+  margin: auto;
+} */
+.btn-primary{
+  @apply bg-btn-primary text-text-colorwhite px-8 py-2 rounded-full cursor-pointer focus:ease-out
+    
+}
+
+/* @media screen and (min-width: 680px) {
+  .container {width: 94%;}
+} */
