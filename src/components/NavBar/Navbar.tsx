@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from '../../assets/img/Conia_soft_-_CLOUD-icon-removebg-preview (1) 1.svg'
 import { Link} from 'react-router-dom' 
 import Navbarlinks from './Navbarlinks'
+import { TfiMenu } from "react-icons/tfi";
 
 
 
@@ -17,7 +18,9 @@ const Navbar = () => {
           <div className='z-50 p-5 md:w-auto w-full flex justify-between'>
             <img src={logo} alt="" className='md:cursor-pointer h-9'/>
             <div className='text-3xl cursor-pointer px-10 md:hidden' onClick={() =>setOpen(!open)}>
-            <ion-icon name={`${open ? 'close' : 'menu' }`}></ion-icon>
+            {/* <ion-icon name={`${open ? 'close' : 'menu' }`}></ion-icon> */}
+            <TfiMenu name={`${open ? 'close' : 'menu' }`} />
+
             </div>
           </div>
           <ul className='md:flex hidden uppercase items-center gap-8 font-[poppins]'>
