@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-do
 import Home from './pages/home/Home'
 import Layout from './components/Layout/Layout'
 import Features from './pages/features/Features'
-import Contact from './pages/contact/contact'
+import Contact from './pages/contact/Contact'
 // import SubHero from './pages/home/SubHero'
 // import Cards from './pages/home/Cards'
 // import Services from './pages/home/Services'
