@@ -20,9 +20,9 @@ const Navbar = () => {
           <div className='z-50 p-5 md:w-auto w-full flex justify-between'>
             <img src={logo} alt="" className='md:cursor-pointer h-9'/>
             <div className='text-3xl cursor-pointer px-10 md:hidden' onClick={() =>setOpen(!open)}>
-            <Ion-icon name={`${open ? 'close' : 'menu' }`}></Ion-icon>
+            {/* <Ion-icon name={`${open ? 'close' : 'menu' }`}></Ion-icon> */}
             
-            {/* <FaBars name={`${open ?  <FaXmark/> :  <FaBars/> }`}/> */}
+            <FaBars name={`${open ?  <FaXmark/> :  <FaBars/> }`}/>
 
            
             
