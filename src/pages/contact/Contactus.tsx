@@ -15,7 +15,7 @@ const Contactus = () => {
 
     </div>
         </div>
-        <div className="px-4 sm:w-2/3 lg:.w-1/2 mx-auto">
+        <div className="px-4 py-8 sm:w-2/3 lg:.w-1/2 mx-auto">
           <div className="rounded-lg shadow-lg -mt-20 bg-white py-10 md:py-12 px-4 md:px-6">
             {/* <!-- component --> */}
             <div className="bg-white rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
