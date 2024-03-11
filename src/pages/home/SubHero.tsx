@@ -3,8 +3,9 @@ import icon from '../../assets/img/Icon.svg'
 const SubHero = () => {
     return (
         <>
-            <div className="w-full min-h-[70vh] bg-section-color mt-10">
-                <div className="container flex flex-col  md:flex-row">
+            <div className="w-full h-[(100vh-140px)] bg-section-color mt-20">
+                <div className='container'>
+                <div className="flex flex-col  md:flex-row">
                     <div className='w-full md:w-[60%] mt-10 mb-5'>
                         <img src={section} alt="" />
                     </div>
@@ -24,6 +25,7 @@ const SubHero = () => {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
 
             </div>

@@ -6,7 +6,7 @@ import s3 from '../../assets/img/s3.svg'
 const Services = () => {
   return (
     <>
-      <div className="w-full min-h-[70vh] bg-white">
+      <div className="w-full h[calc[100vh-140px]] bg-white">
         <div className="flex items-center justify-center">
           <p className="font-bold capitalize text-3xl mt-10 text-text-colorblue">Why you Choice us</p>
         </div>

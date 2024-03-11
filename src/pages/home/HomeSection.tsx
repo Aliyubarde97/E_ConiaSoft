@@ -3,7 +3,7 @@ const HomeSection = () => {
   return (
     
     <>
-            <div className="w-full min-h-[70vh] bg-hero-color">
+            <div className="w-full h-[calc(100vh-140px)] bg-hero-color">
                 <div className="container">
                     <div className="flex flex-col items-center justify-center md:flex-row">
                         <div className="w-full md:w-[60%]">
@@ -18,7 +18,7 @@ const HomeSection = () => {
                             </p>
                         </div>
 
-                        <div className="w-full md:w-[40%] mb-10" >
+                        <div className="w-full md:w-[40%]  mb-10" >
                             <img src={hero} alt="" className= ''/>
                         </div>
                     </div>

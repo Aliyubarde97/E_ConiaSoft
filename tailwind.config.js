@@ -16,22 +16,15 @@ export default {
         'text-colorwhite':'#FFFFFF',
         'text-colorblack':'#071625',
         'btn-primary': '#004181',
-        
-
-    
 
       },
       container:{
         center:true,
-
-        padding:{
-          DEFAULT:'20px',
-          md:"10px"
-        }
-  
+        screens:{}  
     },
     },
   },
-  plugins:[require('flowbite/plugin')],
+  // eslint-disable-next-line no-undef
+  plugins:[],
 }
 
