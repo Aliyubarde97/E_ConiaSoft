@@ -5,11 +5,11 @@ import logo from '../../assets/img/eConiaSoft final.jpg'
 import { List, X } from 'phosphor-react'
 import Mobile from '../Layout/Mobile'
 
+import '../Navigation/Navigation.css'
+
 
 const Navbar = () => {
 
-
-  const[showDropDown, setShowDropDown] = useState(false)
   const[showMobileNav, SetShowMobileNav]= useState(false);
 
  
@@ -37,18 +37,14 @@ const Navbar = () => {
               <Link to="/" className='hover:border-b-2 border-bg-color'>
                 HOME
               </Link>
-              <div className='inline-block cursor-pointer'>
-                  <span  onClick={() => setShowDropDown(!showDropDown)} className='hover:border-b-2 border-bg-color cursor-pointer'>FEATURES</span>
-                  {
-                    showDropDown ? (
-                    <ul className='w-full min-w-max border rounded-lg shadow-md  absolute top-7 left-0  bg-bg-color z-50'>
+              <div className='dropDown inline-block cursor-pointer relative'>
+                  <span  className=' hover:border-b-2 border-bg-color cursor-pointer'>FEATURES</span>
+                    <ul className='dropDown-List w-full min-w-max border rounded-lg shadow-md  absolute top-7 left-0  bg-bg-color z-50'>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Archive</Link></li>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Invoice</Link></li>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Delivery</Link></li>
                     <li className='hover:bg-white  px-2'><Link to={''}>E_Procedure</Link></li>
                   </ul> 
-                    ):null
-                  }
               </div>
               <Link to="/" className='hover:border-b-2 border-bg-color'>
                 CONTACT
