@@ -8,7 +8,7 @@ const Cards = () => {
         <>
             <div className="w-full min-h-[70vh] bg-bg-color">
                 <div className="flex items-center justify-center">
-                    <p className="font-bold capitalize text-3xl mt-10 text-white">Our Features</p>
+                    <p className="font-bold capitalize text-3xl py-5 text-white">Our Features</p>
                 </div>
                 <div className="container grid lg:grid-cols-4 md:grid-2  gap-12 lg:gap-8  sm:px-6  lg:px-4 mt-10">
                     {/* card-1 */}

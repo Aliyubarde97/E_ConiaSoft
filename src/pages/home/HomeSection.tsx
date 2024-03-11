@@ -18,7 +18,7 @@ const HomeSection = () => {
                             </p>
                         </div>
 
-                        <div className="w-full md:w-[40%]  mb-10" >
+                        <div className="w-full md:w-[40%]" >
                             <img src={hero} alt="" className= ''/>
                         </div>
                     </div>

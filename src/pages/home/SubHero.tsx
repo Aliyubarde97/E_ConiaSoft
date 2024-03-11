@@ -10,13 +10,13 @@ const SubHero = () => {
                         <img src={section} alt="" />
                     </div>
                     <div className='w-full md:w-[40%] mt-10'>
-                        <h3 className=' capitalize leading-74 font-bold text-text-colorblue text-5xl '>All your Files and documents in one place</h3>
-                        <h3 className=' capitalize text-2xl  mt-5 mb-10 md:md:w-[100%] md:pr-10'>
+                        <h3 className=' capitalize leading-74 font-bold text-text-colorblue text-3xl '>All your Files and documents in one place</h3>
+                        <h3 className=' capitalize text-1xl  mt-5 mb-10 md:md:w-[100%] md:pr-10'>
                             Building an enterprise level site doesn't need nightmare or cost your thousands. E_ConaiSoft is purposely
                             built for ease of use and completxability to create even the most powerful of products.
                         </h3>
                         <div className='flex flex-col-1 gap-7 mb-8 mt-2'>
-                            <div className='w-50' >
+                            <div className='w-50'>
                                 <img src={icon} alt="" />
                             </div>
                             <div className=''>
