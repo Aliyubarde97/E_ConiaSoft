@@ -3,7 +3,7 @@ import Cards from './Cards'
 import HomeSection from './HomeSection'
 import Services from './Services'
 import SubHero from './SubHero'
-import Subscribe from './Subscribe'
+import Subscribe from './Pricing'
 const Home = () => {
     return (
         <>
