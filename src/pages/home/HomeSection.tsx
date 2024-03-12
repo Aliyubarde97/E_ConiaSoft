@@ -3,10 +3,10 @@ const HomeSection = () => {
   return (
     
     <>
-            <div className="w-full h-[calc(100vh-140px)] bg-hero-color flex justify-center items-center">
+            <div className="w-full h-[calc(100vh-140px)] bg-hero-color flex justify-center py-10 items-center">
                 <div className="container">
                     <div className="flex flex-col items-center justify-center md:flex-row">
-                        <div className="w-full md:w-[50%]">
+                        <div className="w-full md:w-[50%] p-3">
                             <p className="">
                                 <h3 className=' capitalize leading-74 font-bold text-btn-primary text-4xl '>Effortless Electronic Invoicing for Modern Businesses</h3>
                                 <h3 className=' capitalize  mt-5 mb-10 md:md:w-[100%]  md:pr-10'>
@@ -18,7 +18,7 @@ const HomeSection = () => {
                             </p>
                         </div>
 
-                        <div className="w-full md:w-[40%]" >
+                        <div className="w-full md:w-[40%] py-5" >
                             <img src={hero} alt="" className= ''/>
                         </div>
                     </div>

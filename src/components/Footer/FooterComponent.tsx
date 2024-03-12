@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom"
-
+import support from "../../assets/img/eConiaSoft Mascot-En.png"
 import logo from '../../assets/img/eConiaSoft-Final2.png'
 import { FacebookLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
 const FooterComponent = () => {
   return (
      <>
      <div className="relative w-full text-white bg-bg-color">
+     
       <div className="container">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-20 gap-20 cursor-pointer ">
-          <div className="flex flex-col">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15 cursor-pointer ">
+          <div className="flex justify-center items-center gap-5">
+          <img src={support} alt="" className="w-[200px] object-contain" />
             <Link to={""}>
               <img src={logo} alt="" className="w-[150px]" />
               <p>Lorem, ipsum dolor sit amet consectetur adi</p>
