@@ -7,10 +7,18 @@ const FooterComponent = () => {
      <>
      <div className="relative w-full text-white bg-bg-color">
       <div className="container">
+<<<<<<< HEAD
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-20">
           <div className="flex flex-col">
             <Link to='#'>
               <img src={logo} alt=""  />
+=======
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15  ">
+          <div className="flex justify-center items-center gap-5">
+          <img src={support} alt="" className="w-[200px] object-contain" />
+            <Link to={""}>
+              <img src={logo} alt="" className="w-[150px]" />
+>>>>>>> 726b924922e6be43ab0a93e54dd0315f8a112370
               <p>Lorem, ipsum dolor sit amet consectetur adi</p>
             </Link>
 

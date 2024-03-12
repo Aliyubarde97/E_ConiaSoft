@@ -27,6 +27,17 @@ body {
 
 } 
 
+::-webkit-scrollbar {width: 0.2rem;}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: #238DC1;
+    transition: all 0.4s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+}
 
 .btn-primary{
   @apply bg-btn-primary text-text-colorwhite px-8 py-2 rounded-full cursor-pointer focus:ease-out

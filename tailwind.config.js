@@ -12,7 +12,7 @@ export default {
         'hero-color':'#FFFFFF',
         'section-color':'#D7E7F8',
         'features-color':'#F6F6F6',
-        'text-colorblue':'#004181',
+        'text-colorblue':'#238DC1',
         'text-colorwhite':'#FFFFFF',
         'text-colorblack':'#000102',
         'btn-primary': '#238DC1',
