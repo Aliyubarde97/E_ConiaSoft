@@ -10,7 +10,7 @@ const FooterComponent = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-20 gap-20 cursor-pointer ">
           <div className="flex flex-col">
             <Link to={""}>
-              <img src={logo} alt=""  />
+              <img src={logo} alt="" className="w-[150px]" />
               <p>Lorem, ipsum dolor sit amet consectetur adi</p>
             </Link>
 
