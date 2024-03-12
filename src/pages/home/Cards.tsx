@@ -6,22 +6,14 @@ import card4 from '../../assets/img/card4.svg'
 const Cards = () => {
     return (
         <>
-<<<<<<< HEAD
             <div className="w-full min-h-[70vh] bg-bg-color">
                 <div className='container'>
-=======
-            <div className="w-full min-h-[50vh] bg-bg-color">
->>>>>>> dc1c6e0408eac674eb2ed141f6e6e3bf3f7aa452
                 <div className="flex items-center justify-center">
                     <p className="font-bold capitalize text-3xl py-5 text-white">Our Features</p>
 
                     {/* cards */}
                 </div>
-<<<<<<< HEAD
                 <div className="grid lg:grid-cols-4 md:grid-2  gap-12 lg:gap-8  sm:px-6   mt-10">
-=======
-                <div className="container grid lg:grid-cols-4 py-5 md:grid-2  gap-12 lg:gap-8  sm:px-6  lg:px-4 mt-10">
->>>>>>> dc1c6e0408eac674eb2ed141f6e6e3bf3f7aa452
                     {/* card-1 */}
                     <div className="bg-white mb-10 border  border-color-white text-center py-10 px-6 
                                     cursor-pointer hover:bg-color-primary-dark  ease-in ">
