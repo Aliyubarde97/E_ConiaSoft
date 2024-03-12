@@ -38,7 +38,7 @@ const Pricing = () => {
               cursor-pointer hover:bg-color-primary-dark ease-in'>
                 <p className="py-2 font-bold text-2xl">{items.PlanName}</p>
                 <p className="py-2 font-bold text-lg">{items.PlanPrice}</p>
-                <p className="">{items.bundle}</p>
+                <p className="flex">{items.bundle}</p>
                 <div>
                   <button type="submit">Login</button>
                 </div>
