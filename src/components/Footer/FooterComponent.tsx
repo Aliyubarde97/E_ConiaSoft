@@ -8,7 +8,7 @@ const FooterComponent = () => {
      <div className="relative w-full text-white bg-bg-color">
      
       <div className="container">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15 cursor-pointer ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15  ">
           <div className="flex justify-center items-center gap-5">
           <img src={support} alt="" className="w-[200px] object-contain" />
             <Link to={""}>
