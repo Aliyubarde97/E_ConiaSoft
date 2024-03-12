@@ -50,6 +50,9 @@ const Navbar = () => {
                 PRICING
               </Link>
               <Link to="/" className='hover:border-b-2 border-bg-color'>
+                ABOUT
+              </Link>
+              <Link to="/" className='hover:border-b-2 border-bg-color'>
                 CONTACT
               </Link>
             

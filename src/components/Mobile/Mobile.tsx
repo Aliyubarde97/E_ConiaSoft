@@ -22,6 +22,7 @@ const Mobile = ({show, setClose}:MobileProps) => {
     <li className='px-3  cursor-default oy-2 inline-block'><Link to="#">Home</Link></li>
     <li className='px-3  cursor-default py-2 block'><Link to="#">Features</Link></li>
     <li className='px-3  cursor-default py-2 block'><Link to="#">Pricing</Link></li>
+    <li className='px-3  cursor-default py-2 block'><Link to="#">About</Link></li>
     <li className='px-3  cursor-default  py-2 block'><Link to="#">Contact</Link></li> 
     <div>
    <button className='btn-primary'><Link to="#">Login</Link></button>
