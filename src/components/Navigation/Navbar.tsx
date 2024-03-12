@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Link} from 'react-router-dom' 
 import logo from '../../assets/img/eConiaSoft final.jpg'
 import { List, X } from 'phosphor-react'
-import Mobile from '../Layout/Mobile'
+import Mobile from '../Mobile/Mobile'
 
 import '../Navigation/Navigation.css'
 
@@ -48,6 +48,9 @@ const Navbar = () => {
               </div>
               <Link to="/" className='hover:border-b-2 border-bg-color'>
                 PRICING
+              </Link>
+              <Link to="/" className='hover:border-b-2 border-bg-color'>
+                ABOUT
               </Link>
               <Link to="/" className='hover:border-b-2 border-bg-color'>
                 CONTACT

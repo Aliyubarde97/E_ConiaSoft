@@ -8,11 +8,11 @@ const Services = () => {
     <>
       <div className="w-full h[calc[100vh-140px]] bg-white">
         <div className="flex items-center justify-center">
-          <p className="font-bold capitalize text-3xl mt-10 text-text-colorblue">Why you Choice us</p>
+          <p className="font-bold capitalize text-3xl mt-10 py-5 text-text-colorblue">Why you Choice us</p>
         </div>
         <div className="container grid lg:grid-cols-4 md:grid-2  gap-12 lg:gap-8  sm:px-6  lg:px-4 mt-10">
           {/* card-1 */}
-          <div className=" bg-white mb-10 text-center py-10 px-6 
+          <div className=" bg-white shadow-md mb-10 text-center py-10 px-6 
               cursor-pointer hover:bg-color-primary-dark  ease-in ">
             <div
               className="bg-color-secondry inline-block rounded-2xl py-4 px-3  w-20 "
@@ -26,7 +26,7 @@ const Services = () => {
 
           </div>
           {/* card2 */}
-          <div className=" bg-white mb-10  text-center py-10 px-6
+          <div className=" bg-white shadow-md mb-10  text-center py-10 px-6
               cursor-pointer hover:bg-color-primary-dark  ease-in ">
             <div
               className="bg-color-secondry inline-block rounded-2xl py-4 px-3  w-20"
@@ -40,7 +40,7 @@ const Services = () => {
 
           </div>
           {/* card 3  */}
-          <div className=" bg-white mb-10 b   text-center py-10 px-6
+          <div className=" bg-white mb-10  shadow-md   text-center py-10 px-6
               cursor-pointer hover:bg-color-primary-dark  ease-in ">
             <div
               className=" inline-block rounded-2xl py-4 px-3  w-20 "
@@ -53,7 +53,8 @@ const Services = () => {
             </p>
 
           </div>
-          <div className=" bg-white mb-10 b   text-center py-10 px-6
+          {/* card4 */}
+          <div className=" bg-white mb-10 shadow-md   text-center py-10 px-6
               cursor-pointer hover:bg-color-primary-dark  ease-in ">
             <div
               className=" inline-block rounded-2xl py-4 px-3  w-20 "
