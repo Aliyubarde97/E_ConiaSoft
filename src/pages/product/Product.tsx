@@ -3,7 +3,7 @@ import EDeliveryNote from "./EDeliveryNote"
 import Einvoice from "./Einvoice"
 import Eproducer from "./Eproducer"
 
-import HeroFeature from "./HeroFeature"
+import HeroFeature from "./HeroProduct"
 import Process from "./Process"
 
 const Features = () => {
