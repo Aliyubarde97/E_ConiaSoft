@@ -23,7 +23,7 @@ const Navbar = () => {
     setClose ={()=> SetShowMobileNav(false)}
     />
 
-    <nav  className='Nav bg-bg-white w-full h-[90px] fixed left-0 top-0 z-10 bg-white justify-center items-center  border-b'>
+    <nav  className='Nav bg-bg-white w-full h-[90px] justify-center items-center  border-b'>
       <div className='container'>
       <div className='flex justify-between  items-center gap-3 font-medium'>
           <div className='inline-block'>
@@ -66,14 +66,14 @@ const Navbar = () => {
             
             {
               showMobileNav ? (
-                <span>
-                    <X size={20} onClick={()=> SetShowMobileNav(false)}  className='cursor-pointer md:hidden'/>
-                </span>
+                
+                    <X size={30} onClick={()=> SetShowMobileNav(false)}  className='cursor-pointer relative md:hidden'/>
+               
                 
                 ):
-                <div className='Cursor-pointer px-10 md:hidden'>   
-                <List size={20} onClick={()=> SetShowMobileNav(true)} className='cursor-pointer fixed'/>
-                </div>
+               
+                <List size={30} onClick={()=> SetShowMobileNav(true)} className='cursor-pointer md:hidden '/>
+          
                 
             }
            
