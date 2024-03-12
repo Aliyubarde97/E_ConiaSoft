@@ -47,9 +47,9 @@ const FooterComponent = () => {
               <li className="my-2"><Link to={""}>+234567890</Link></li>
               <li className="my-2"><Link to={""}>Follow us</Link></li>
              <div className="flex justify-start items-center gap-3">
-              <Link to={""}><FacebookLogo size={32} /></Link>
-              <Link to={""}><TwitterLogo size={32} /></Link>
-              <Link to={""}><LinkedinLogo size={32} /></Link>
+              <Link className="text-[#1877F2]" to={""}><FacebookLogo size={32} /></Link>
+              <Link className="text-[#1DA1F2]" to={""}><TwitterLogo size={32} /></Link>
+              <Link className="text-[#1DA1F2]"to={""}><LinkedinLogo size={32} /></Link>
 
              </div>
             </ul>
