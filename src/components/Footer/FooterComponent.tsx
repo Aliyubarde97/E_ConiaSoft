@@ -1,26 +1,76 @@
 import { Link } from "react-router-dom"
 import support from "../../assets/img/eConiaSoft Mascot-En.png"
 import logo from '../../assets/img/eConiaSoft-Final2.png'
+import footer1 from '../../assets/img/Footer1.png'
+import footer2 from '../../assets/img/Footer2.png'
+import footer3 from '../../assets/img/Footer3.png'
+import footer4 from '../../assets/img/Footer4.png'
+import footer5 from '../../assets/img/Footer5.jpg'
+
+
+
+
 import { FacebookLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
 const FooterComponent = () => {
   return (
      <>
      <div className="relative w-full text-white bg-bg-color">
-     
       <div className="container">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15  ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  py-5 px-3 gap-3">
+      <div className="flex justify-between items-center gap-2">
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={support} alt="" className="w-[100px]" />
+            </Link>
+          </div>
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={logo} alt="" className="w-[100px]" />
+            </Link>
+          </div>
+          </div>
           <div className="flex justify-between items-center gap-2">
           <div className="flex flex-col">
           <Link to={""}>
-              <img src={support} alt="" className="w-[150px]" />
+              <img src={footer1} alt="" className="w-[100px]" />
             </Link>
           </div>
           <div className="flex flex-col">
           <Link to={""}>
-              <img src={logo} alt="" className="w-[150px]" />
+              <img src={footer2} alt="" className="w-[100px]" />
             </Link>
           </div>
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={footer3} alt="" className="w-[50px]" />
+            </Link>
+          </div>
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={footer4} alt="" className="w-[100px]" />
+            </Link>
+          </div>
+          <div>
+          <Link to={""}>
+              <img src={footer5} alt="" className="w-[100px]" />
+            </Link>
+          </div>
+          </div>
+          </div>
+          
             
+
+          
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15">
+        <div className="flex flex-col gap-3">
+            <p className="uppercase">Quick link</p>
+            <ul>
+              <li className="my-5"><Link to={""}>Home</Link></li>
+              <li className="my-5"><Link to={""}>Features</Link></li>
+              <li className="my-5"><Link to={""}>Product</Link></li>
+              <li className="my-5"><Link to={""}>Pricing</Link></li>
+              <li className="my-5"><Link to={""}>Contact</Link></li>
+            </ul>
 
           </div>
           <div className="flex flex-col gap-3">
@@ -67,8 +117,7 @@ const FooterComponent = () => {
         </div>
 
       </div>
-
-     </div>
+      </div>
      
      </>
   )
