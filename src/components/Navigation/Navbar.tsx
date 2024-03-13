@@ -23,7 +23,7 @@ const Navbar = () => {
     setClose ={()=> SetShowMobileNav(false)}
     />
 
-    <nav  className='Nav bg-bg-white w-full h-[90px] justify-center fixed left-0 top-0 z-10 bg-white items-center  border-b'>
+    <nav  className='Nav bg-bg-white w-full h-[80px] justify-center fixed left-0 top-0 z-10 bg-white items-center  border-b'>
       <div className='container'>
       <div className='flex justify-between  items-center gap-3 font-medium'>
           <div className='inline-block'>

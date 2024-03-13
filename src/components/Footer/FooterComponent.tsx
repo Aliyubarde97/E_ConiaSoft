@@ -9,12 +9,18 @@ const FooterComponent = () => {
      
       <div className="container">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15  ">
-          <div className="flex justify-center items-center gap-5">
-          <img src={support} alt="" className="w-[200px] object-contain" />
-            <Link to={""}>
-              <img src={logo} alt="" className="w-[150px]" />
-              <p>Lorem, ipsum dolor sit amet consectetur adi</p>
+          <div className="flex justify-between items-center gap-2">
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={support} alt="" className="w-[150px]" />
             </Link>
+          </div>
+          <div className="flex flex-col">
+          <Link to={""}>
+              <img src={logo} alt="" className="w-[150px]" />
+            </Link>
+          </div>
+            
 
           </div>
           <div className="flex flex-col gap-3">
