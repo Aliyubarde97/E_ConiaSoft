@@ -38,7 +38,7 @@ const Navbar = () => {
                 HOME
               </Link>
               <div className='dropDown inline-block cursor-pointer relative'>
-                  <span  className=' hover:border-b-2 border-bg-color cursor-pointer'>FEATURES</span>
+                  <span  className=' hover:border-b-2 border-bg-color cursor-pointer'>PRODUCT</span>
                     <ul className='dropDown-List w-full min-w-max border rounded-lg shadow-md  absolute top-7 left-0  bg-bg-color z-50'>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Archive</Link></li>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Invoice</Link></li>

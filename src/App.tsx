@@ -4,9 +4,9 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 import Home from './pages/home/Home'
 import Layout from './components/Layout/Layout'
-import Features from './pages/product/Product'
 import Contact from './pages/contact/Contact'
-import About from './components/about/About'
+import About from './pages/about/About'
+import Product from './pages/product/Product'
 
 // import SubHero from './pages/home/SubHero'
 // import Cards from './pages/home/Cards'
@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Layout> <Home /> </Layout> } />
-          <Route path='/features' element={<Layout> <Features /> </Layout> } />
+          <Route path='/product' element={<Layout> <Product/> </Layout> } />
           <Route path='/about' element={<Layout> <About/> </Layout> } />
           <Route path='/Contact' element={<Layout> <Contact/> </Layout>} />
           
