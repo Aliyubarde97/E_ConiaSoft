@@ -24,7 +24,6 @@ function App() {
           <Route path='/about' element={<Layout> <About/> </Layout> } />
           <Route path='/Contact' element={<Layout> <Contact/> </Layout>} />
           
-
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
