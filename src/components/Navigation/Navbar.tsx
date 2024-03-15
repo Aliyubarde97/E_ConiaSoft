@@ -34,11 +34,11 @@ const Navbar = () => {
           <div className=''>
           <ul className='md:flex hidden font-[poppins]'>
             <li className='flex justify-start items-start gap-8'>
-              <Link to="/" className='hover:border-b-2 border-bg-color'>
+              <Link to="/home" className='hover:border-b-2 border-bg-color'>
                 HOME
               </Link>
               <div className='dropDown inline-block cursor-pointer relative'>
-                  <span  className=' hover:border-b-2 border-bg-color cursor-pointer'>PRODUCT</span>
+                  <Link  className=' hover:border-b-2 border-bg-color cursor-pointer' to="/product">PRODUCT</Link>
                     <ul className='dropDown-List w-full min-w-max border rounded-lg shadow-md  absolute top-7 left-0  bg-bg-color z-50'>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Archive</Link></li>
                     <li className='hover:bg-white  px-2  mb-2'><Link to={''}>E_Invoice</Link></li>
@@ -46,13 +46,13 @@ const Navbar = () => {
                     <li className='hover:bg-white  px-2'><Link to={''}>E_Procedure</Link></li>
                   </ul> 
               </div>
-              <Link to="/" className='hover:border-b-2 border-bg-color'>
+              <Link to="" className='hover:border-b-2 border-bg-color'>
                 PRICING
               </Link>
-              <Link to="/" className='hover:border-b-2 border-bg-color'>
+              <Link to="/about" className='hover:border-b-2 border-bg-color'>
                 ABOUT
               </Link>
-              <Link to="/" className='hover:border-b-2 border-bg-color'>
+              <Link to="/contact" className='hover:border-b-2 border-bg-color'>
                 CONTACT
               </Link>
             
