@@ -4,12 +4,12 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 import Home from './pages/home/Home'
 import Layout from './components/Layout/Layout'
-import Features from './pages/product/Product'
 import Contact from './pages/contact/Contact'
-// import SubHero from './pages/home/SubHero'
-// import Cards from './pages/home/Cards'
-// import Services from './pages/home/Services'
-// import Subscribe from './pages/home/Subscribe'
+import About from './pages/about/About'
+import Product from './pages/product/Product'
+import Pricing from './pages/home/HomePricing'
+
+
 
 
 function App() {
@@ -18,11 +18,12 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Layout> <Home /> </Layout> } />
-          <Route path='/features' element={<Layout> <Features /> </Layout> } />
+          <Route path='/'  element={<Layout> <Home /> </Layout> } />
+          <Route path='/product' element={<Layout> <Product/> </Layout> } />
+          <Route path='/pricing' element={<Layout> <Pricing/></Layout> } />
+          <Route path='/about' element={<Layout> <About/> </Layout> } />
           <Route path='/Contact' element={<Layout> <Contact/> </Layout>} />
           
-
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

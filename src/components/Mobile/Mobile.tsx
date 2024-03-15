@@ -16,12 +16,13 @@ const Mobile = ({show, setClose}:MobileProps) => {
 
   return (
     <>
-    <div onClick={HandleClose}  className={`Mobile bg-white absolute top-[80px] left-0 w-[200px] shadow-md h-screen bottom-0 py-10 cursor-pointer pl-4 duration-500 ${show ? "fixed": "hidden"} z-[1000]`} >
+    <div onClick={HandleClose}  className={`Mobile bg-white absolute top-[60px] left-0 w-[200px] shadow-md h-screen bottom-0 py-10 cursor-pointer pl-4 duration-500 ${show ? "fixed": "hidden"} z-[1000]`} >
     <ul  className="">
          
     <li className='px-3  cursor-default oy-2 inline-block'><Link to="#">Home</Link></li>
-    <li className='px-3  cursor-default py-2 block'><Link to="#">Features</Link></li>
+    <li className='px-3  cursor-default py-2 block'><Link to="#">Product</Link></li>
     <li className='px-3  cursor-default py-2 block'><Link to="#">Pricing</Link></li>
+    <li className='px-3  cursor-default py-2 block'><Link to="#">About</Link></li>
     <li className='px-3  cursor-default  py-2 block'><Link to="#">Contact</Link></li> 
     <div>
    <button className='btn-primary'><Link to="#">Login</Link></button>
