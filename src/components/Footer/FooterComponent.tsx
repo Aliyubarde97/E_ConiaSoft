@@ -72,18 +72,18 @@ const FooterComponent = () => {
           
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-10 gap-15">
         <div className="flex flex-col">
-            <p className="capitalize my-5">ConiaSoft Software Suite is a comprehensive suite of tools.</p>
+            <p className="capitalize">ConiaSoft Software Suite is a comprehensive suite of tools.</p>
             <h4 className="my-5">CONIASOFT SOFTWARE TECHNOLOGIES LTD.</h4>
             <h5 >Üniversite Mahallesi İpekyolu Caddesi Teknoloji Geliştirme Bölgesi</h5>
-            <p className="py-2">Phone<span>+1234567890</span></p>
-            <p className="py-3">Whatsapp<span>+987654321</span></p>
-            <p className="py-2">Email<span>eConaisoft.com</span></p>
+            <p className="py-2 text-[#FFA500]">Phone:<span className="text-white px-3">+1234567890</span></p>
+            <p className="py-3  text-[#FFA500]">Whatsapp:<span className="text-white px-3">+987654321</span></p>
+            <p className="py-3  text-[#FFA500]">Email:<span className="text-white px-3">eConaisoft.com</span></p>
             <div className="flex justify-start items-center my-5 gap-3">
-              <Link className="" to={""}><FacebookLogo size={20} color="orange" /></Link>
-              <Link  className='' to={""}><TwitterLogo size={20} color="orange" /></Link>
-              <Link className="" to={""}><LinkedinLogo size={20} color="orange" /></Link>
-              <Link  className='' to="#"><InstagramLogo size={20} color="orange"/></Link>
-              <Link to="#"><YoutubeLogo size={20}/></Link>
+              <Link className="bg-[#FFA500] text-white rounded-md" to={""}><FacebookLogo size={23}  /></Link>
+              <Link  className='bg-[#FFA500] text-white rounded-md' to={""}><TwitterLogo size={23}  /></Link>
+              <Link className="bg-[#FFA500] text-white rounded-md" to={""}><LinkedinLogo size={23}  /></Link>
+              <Link  className='bg-[rgb(255,166,0)] text-white rounded-md' to="#"><InstagramLogo size={23} /></Link>
+              <Link  className='bg-[rgb(255,166,0)] text-white rounded-md' to="#"><YoutubeLogo size={23}/></Link>
              </div>
 
           </div>
