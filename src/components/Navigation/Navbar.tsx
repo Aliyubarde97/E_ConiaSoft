@@ -46,7 +46,7 @@ const Navbar = () => {
                     <li className='hover:bg-white  px-2'><Link to={''}>E_Procedure</Link></li>
                   </ul> 
               </div>
-              <Link to="" className='hover:border-b-2 border-bg-color'>
+              <Link to="/pricing" className='hover:border-b-2 border-bg-color'>
                 PRICING
               </Link>
               <Link to="/about" className='hover:border-b-2 border-bg-color'>

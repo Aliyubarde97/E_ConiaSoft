@@ -7,11 +7,9 @@ import Layout from './components/Layout/Layout'
 import Contact from './pages/contact/Contact'
 import About from './pages/about/About'
 import Product from './pages/product/Product'
+import Pricing from './pages/home/HomePricing'
 
-// import SubHero from './pages/home/SubHero'
-// import Cards from './pages/home/Cards'
-// import Services from './pages/home/Services'
-// import Subscribe from './pages/home/Subscribe'
+
 
 
 function App() {
@@ -22,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/'  element={<Layout> <Home /> </Layout> } />
           <Route path='/product' element={<Layout> <Product/> </Layout> } />
+          <Route path='/pricing' element={<Layout> <Pricing/></Layout> } />
           <Route path='/about' element={<Layout> <About/> </Layout> } />
           <Route path='/Contact' element={<Layout> <Contact/> </Layout>} />
           
