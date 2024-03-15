@@ -10,81 +10,85 @@ import footer5 from '../../assets/img/Footer5.jpg'
 
 
 
-import { FacebookLogo, LinkedinLogo, TwitterLogo } from "phosphor-react"
+import { FacebookLogo, InstagramLogo, LinkedinLogo, TwitterLogo, YoutubeLogo } from "phosphor-react"
 const FooterComponent = () => {
   return (
      <>
      <div className="relative w-full text-white bg-bg-color">
       <div className="container">
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  py-5 px-3 gap-3">
-      <div className="flex justify-between items-center gap-2">
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={support} alt="" className="w-[100px]" />
+
+        {/* logo stuff */}
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 border-b pb-4 p-5 gap-20">
+          {/* first logos */}
+        <div className="flex justify-start items-center gap-2">
+        <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={support} alt="" className='md:cursor-pointer  h-[76px]'/>
             </Link>
-          </div>
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={logo} alt="" className="w-[100px]" />
+            </div>
+
+            <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={logo} alt="" className='md:cursor-pointer  h-[76px]'/>
             </Link>
+            </div>
           </div>
-          </div>
-          <div className="flex justify-between items-center gap-2">
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={footer1} alt="" className="w-[100px]" />
+
+          {/* second logos */}
+          <div className="grid lg:grid-cols-5 md:flex-wrap grid-cols-1">
+          <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={footer1} alt="" className='md:cursor-pointer  h-[76px] '/>
             </Link>
-          </div>
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={footer2} alt="" className="w-[100px]" />
+            </div>
+            <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={footer2} alt="" className='md:cursor-pointer  h-[76px] '/>
             </Link>
-          </div>
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={footer3} alt="" className="w-[50px]" />
+            </div>
+            <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={footer3} alt="" className='md:cursor-pointer  h-[76px] '/>
             </Link>
-          </div>
-          <div className="flex flex-col">
-          <Link to={""}>
-              <img src={footer4} alt="" className="w-[100px]" />
+            </div>
+            <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={footer4} alt="" className='md:cursor-pointer  h-[76px] '/>
             </Link>
-          </div>
-          <div>
-          <Link to={""}>
-              <img src={footer5} alt="" className="w-[100px]" />
+            </div>
+            <div className='inline-block'>
+            <Link to={'#'}>
+            <img src={footer5} alt="" className='md:cursor-pointer h-[76px] '/>
             </Link>
+            </div>
           </div>
+
           </div>
-          </div>
+
+      
           
             
 
           
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-10 gap-15">
-        <div className="flex flex-col gap-3">
-            <p className="uppercase">Quick link</p>
-            <ul>
-              <li className="my-5"><Link to={""}>Home</Link></li>
-              <li className="my-5"><Link to={""}>Features</Link></li>
-              <li className="my-5"><Link to={""}>Product</Link></li>
-              <li className="my-5"><Link to={""}>Pricing</Link></li>
-              <li className="my-5"><Link to={""}>Contact</Link></li>
-            </ul>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-10 gap-15">
+        <div className="flex flex-col">
+            <p className="capitalize my-5">ConiaSoft Software Suite is a comprehensive suite of tools.</p>
+            <h4 className="my-5">CONIASOFT SOFTWARE TECHNOLOGIES LTD.</h4>
+            <h5 >Üniversite Mahallesi İpekyolu Caddesi Teknoloji Geliştirme Bölgesi</h5>
+            <p className="py-2">Phone<span>+1234567890</span></p>
+            <p className="py-3">Whatsapp<span>+987654321</span></p>
+            <p className="py-2">Email<span>eConaisoft.com</span></p>
+            <div className="flex justify-start items-center my-5 gap-3">
+              <Link className="" to={""}><FacebookLogo size={20} color="orange" /></Link>
+              <Link  className='' to={""}><TwitterLogo size={20} color="orange" /></Link>
+              <Link className="" to={""}><LinkedinLogo size={20} color="orange" /></Link>
+              <Link  className='' to="#"><InstagramLogo size={20} color="orange"/></Link>
+              <Link to="#"><YoutubeLogo size={20}/></Link>
+             </div>
 
           </div>
-          <div className="flex flex-col gap-3">
-            <p className="uppercase">Quick link</p>
-            <ul>
-              <li className="my-5"><Link to={""}>Home</Link></li>
-              <li className="my-5"><Link to={""}>Features</Link></li>
-              <li className="my-5"><Link to={""}>Product</Link></li>
-              <li className="my-5"><Link to={""}>Pricing</Link></li>
-              <li className="my-5"><Link to={""}>Contact</Link></li>
-            </ul>
-
-          </div>
-          <div className="flex flex-col gap-3">
+          
+          <div className="flex flex-col ">
             <p className="uppercase">service</p>
             <ul>
               <li className="my-5"><Link to={""}>Shared Web</Link></li>
@@ -98,18 +102,13 @@ const FooterComponent = () => {
             </ul>
 
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col">
             <p className="uppercase">Conatct</p>
             <ul>
               <li className="my-5"><Link to={""}>Support@E_ConiaSoft.com</Link></li>
               <li className="my-5"><Link to={""}>+234567890</Link></li>
               <li className="my-5"><Link to={""}>Follow us</Link></li>
-             <div className="flex justify-start items-center gap-3">
-              <Link to={""}><FacebookLogo size={32} /></Link>
-              <Link to={""}><TwitterLogo size={32} /></Link>
-              <Link to={""}><LinkedinLogo size={32} /></Link>
-
-             </div>
+             
             </ul>
 
           </div>
